@@ -1,0 +1,600 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web_banhang</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+<!-- header Page Title -->
+<header class="header">
+  <div class="header-fixed">
+    <div class="container">
+      <div class="inner-wrap">
+        <div class="inner-logo">
+          <a href="#">
+            <img src="assets/images/png-clipart-computer-logo-internet-computer-internet-blue-computer-network-removebg-preview.png"
+                 alt="logo image">
+            <span>KHH.SHOP</span>
+          </a>
+        </div>
+        <div class="inner-menu">
+          <ul>
+            <li>
+              <a href="#" target="_blank">Home</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">About Us</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" target="_black">
+                Products
+                <span class="fa-solid fa-angle-down"></span>
+              </a>
+              <div class="dropdown-content">
+                <a href="#">Electronics</a>
+                <a href="#">Clothing</a>
+                <a href="#">Automotive</a>
+                <a href="#">Beauty</a>
+                <a href="#">Health</a>
+                <a href="#">Home Appliances </a>
+              </div>
+            </li>
+            <li>
+              <a href="#" target="_blank">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="inner-soict">
+          <!--Register Account-->
+          <div class="float-right">
+            <div class="inner-header">
+              <a class="btn-action-header" title="Account" data-toggle="modal"
+                 data-target="#login-modal">
+                <i class="fa-regular fa-user"></i>
+              </a>
+              <!-- Modal -->
+              <div class="modal fade " id="login-modal" tabindex="-1"
+                   aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Login</h5>
+                      <button type="button" class="close" data-dismiss="modal"
+                              aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form action=" ">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label for="username" class="user_name">
+                                Username
+                                <span class="required">*</span>
+                              </label>
+                              <div class="input-login">
+                                <input type="text" id="username"
+                                       class="form-control">
+                                <div class="inner-icon">
+                                  <i class="fa-regular fa-user"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label for="password" class="user_name">
+                                Password
+                                <span class="required">*</span>
+                              </label>
+                              <div class="input-pass">
+                                <input type="password" id="password"
+                                       class="form-control">
+                                <div class="inner-icon">
+                                  <i class="fa-solid fa-lock"></i>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="inner-button">
+                        Login
+                      </button>
+                    </div>
+                    <div class="inner-desc">
+                      Forgot password
+                    </div>
+                    </form>
+                    <div class="inner-wrap">
+                      <p class="title">Don't have an account?</p>
+                      <p class="desc"> Register now </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="float-right">
+            <div class="inner-header">
+              <a class="btn-action-header">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </a>
+            </div>
+          </div>
+          <div class="float-right">
+            <div class="inner-header">
+              <div class="btn-action-header">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="float-right">
+            <div class="inner-header">
+              <a class="btn-action-header" title="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</header>
+<!-- end header -->
+
+<!-- section-one  -->
+<div class="section-one">
+  <div class="container">
+    <h2 class="inner-title">
+      Best-Selling Products
+    </h2>
+    <div class="inner-list">
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="inner-box">
+            <div class="inner-images">
+              <img src="assets/images/5433_dell_xps_9700_1.jpg" alt="">
+              <div class="inner-sale">
+                -30%
+              </div>
+            </div>
+            <div class="inner-content">
+              <h3 class="inner-title one">
+                Laptop Dell Precision 5530 Core i7-8850H
+              </h3>
+              <p class="inner-desc">
+                Ram 16GB, SSD 256GB, 15.6 Inch
+              </p>
+              <div class="inner-wrap">
+                <div class="inner-button one">Details</div>
+                <div class="inner-button two">Buy now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="inner-box">
+            <div class="inner-images">
+              <img src="assets/images/iphone-13-1-2.jpg" alt="">
+              <div class="inner-sale">
+                -30%
+              </div>
+            </div>
+            <div class="inner-content">
+              <h3 class="inner-title">
+                Iphone-13 Promax 128GB
+              </h3>
+              <p class="inner-desc">
+                New, black color
+              </p>
+              <div class="inner-wrap">
+                <div class="inner-button one">Details</div>
+                <div class="inner-button two">Buy now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="inner-box">
+            <div class="inner-images">
+              <img src="assets/images/3a6f91e1baa942009c118067730c5d8a_606x402.jpg" alt="">
+              <div class="inner-sale">
+                -30%
+              </div>
+            </div>
+            <div class="inner-content">
+              <h3 class="inner-title">
+                Corolla Altis 1.8E CVT
+              </h3>
+              <p class="inner-desc">
+                Capacity of 21.798 cm3
+              </p>
+
+              <div class="inner-wrap">
+                <div class="inner-button one">Details</div>
+                <div class="inner-button two">Buy Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="inner-box">
+            <div class="inner-images">
+              <img src="assets/images/aki1-min.jpg" alt="">
+              <div class="inner-sale">
+                -30%
+              </div>
+            </div>
+            <div class="inner-content">
+              <h3 class="inner-title">
+                Health Care
+              </h3>
+              <p class="inner-desc">
+                Whole Body
+              </p>
+              <div class="inner-wrap">
+                <div class="inner-button one">Details</div>
+                <div class="inner-button two">Buy Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-three">
+    <div class="container">
+      <div class="inner-head">
+        <h2 class="inner-title">
+          We Offer a Variety of Products
+        </h2>
+        <div class="inner-line"></div>
+        <p class="inner-desc">
+          KHH.Shop brings you the best products at affordable prices.
+        </p>
+      </div>
+      <div class="row menu-grid">
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/phuong-tien-giao-thong.jpg" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Automotive
+          </h3>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/do-gia-dung-sinh-hoat.jpg" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Home Appliances
+          </h3>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/sach-van-phong-pham.jpg" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Books
+          </h3>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/thoi-trang-trang-suc.jpg" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Clothing
+          </h3>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/aki1-min.jpg" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Beauty
+          </h3>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/lego_set.png" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Toys
+          </h3>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/thuc-pham-nha-hang.jpg" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Health
+          </h3>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/noi-that-trang-tri.jpg" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Furniture
+          </h3>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/cong-nghe-ky-thuat-so.jpg" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Electronics
+          </h3>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="inner-grid__item">
+            <a class="inner-grid__item-images">
+              <img src="assets/images/the-thao-dich-vu.jpg" alt="">
+            </a>
+          </div>
+          <h3 class="inner-grid__item-title">
+            Sports
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-two">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="inner-head">
+            <h2 class="inner-title">
+              Our Products
+            </h2>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home"
+                        type="button" role="tab" aria-controls="home" aria-selected="true">
+                  New Products
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile"
+                        type="button" role="tab" aria-controls="profile" aria-selected="false">
+                  Featured Products
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact"
+                        type="button" role="tab" aria-controls="contact" aria-selected="false">
+                  Promotions
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <h3>New Products</h3>
+      <div class="row">
+        <div class="col-xl-20 col-lg-3 col-sm-6 col-md-6">
+          <div class="box">
+            <div class="inner-images">
+              <img src="assets/images/O1CN01axMkzp2F9OsoeIW21_2201547938837-0-cib.jpg.jpg" alt="Image1">
+            </div>
+            <div class="inner-content">
+              <p class="inner-desc">Premium Sofa</p>
+              <div class="inner-wrapp">
+                <div class="inner-price">500$</div>
+                <div class="inner-sale"><del>999$</del></div>
+              </div>
+              <div class="inner-wrap">
+                <div class="inner-button one">Details</div>
+                <div class="inner-button two">Buy Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-20 col-lg-3 col-sm-6 col-md-6">
+          <div class="box">
+            <div class="inner-images">
+              <img src="assets/images/ikea_chair.png" alt="Image2">
+            </div>
+            <div class="inner-content">
+              <p class="inner-desc">IKEA Chair</p>
+              <div class="inner-wrapp">
+                <div class="inner-price">500$</div>
+                <div class="inner-sale"><del>999$</del></div>
+              </div>
+              <div class="inner-wrap">
+                <div class="inner-button one">Details</div>
+                <div class="inner-button two">Buy Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-20 col-lg-3 col-sm-6 col-md-6">
+          <div class="box">
+            <div class="inner-images">
+              <img src="assets/images/laptop-dell-precision-5530-core-i7-8850h-2.jpg" alt="Image3">
+            </div>
+            <div class="inner-content">
+              <p class="inner-desc">Dell Precision Laptop</p>
+              <div class="inner-wrapp">
+                <div class="inner-price">500$</div>
+                <div class="inner-sale"><del>999$</del></div>
+              </div>
+              <div class="inner-wrap">
+                <div class="inner-button one">Details</div>
+                <div class="inner-button two">Buy Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-20 col-lg-3 col-sm-6 col-md-6">
+          <div class="box">
+            <div class="inner-images">
+              <img src="assets/images/noi-that-trang-tri.jpg" alt="Image4">
+            </div>
+            <div class="inner-content">
+              <p class="inner-desc">Classic Sofa</p>
+              <div class="inner-wrapp">
+                <div class="inner-price">500$</div>
+                <div class="inner-sale"><del>999$</del></div>
+              </div>
+              <div class="inner-wrap">
+                <div class="inner-button one">Details</div>
+                <div class="inner-button two">Buy Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-20 col-lg-3 col-sm-6 col-md-6">
+          <div class="box">
+            <div class="inner-images">
+              <img src="assets/images/lego_set.png" alt="Image5">
+            </div>
+            <div class="inner-content">
+              <p class="inner-desc">Lego Building Set</p>
+              <div class="inner-wrapp">
+                <div class="inner-price">500$</div>
+                <div class="inner-sale"><del>999$</del></div>
+              </div>
+              <div class="inner-wrap">
+                <div class="inner-button one">Details</div>
+                <div class="inner-button two">Buy Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+      <h3>Featured Products</h3>
+    </div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+      <h3>Promotions</h3>
+    </div>
+  </div>
+
+  <!-- Section Four -->
+  <div class="section-four">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="inner-main">
+            <div class="inner-head">
+              <h2 class="inner-title">Connect with KHH.Shop Now</h2>
+              <p class="inner-desc">We are always ready to listen and provide the best solutions for your problems.</p>
+            </div>
+            <div class="inner-body">
+              <form action=" ">
+                <div class="row">
+                  <div class="col-xl-4">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Full Name*">
+                    </div>
+                  </div>
+                  <div class="col-xl-4">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Phone Number*">
+                    </div>
+                  </div>
+                  <div class="col-xl-4">
+                    <div class="form-group">
+                      <select class="form-control valid">
+                        <option value="Basic Package">BASIC PACKAGE</option>
+                        <option value="Advanced Package">ADVANCED PACKAGE</option>
+                        <option value="Premium Package">PREMIUM PACKAGE</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-12">
+                    <div class="form-group">
+                      <textarea class="form-control" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-xl-12 text-center">
+                    <button class="button">Register for Consultation 3</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- End Section Four -->
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  <!-- Dropdown script for products -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var dropdown = document.querySelector('.header .inner-menu .dropdown');
+
+      dropdown.addEventListener('mouseover', function () {
+        this.querySelector('.dropdown-content').style.display = 'block';
+      });
+
+      dropdown.addEventListener('mouseout', function () {
+        this.querySelector('.dropdown-content').style.display = 'none';
+      });
+
+      dropdown.addEventListener('click', function () {
+        var dropdownContent = this.querySelector('.dropdown-content');
+        if (dropdownContent.style.display === 'block') {
+          dropdownContent.style.display = 'none';
+        } else {
+          dropdownContent.style.display = 'block';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
